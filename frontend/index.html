@@ -32,50 +32,48 @@
   <body>
     <div class="container-fluid gap-5">
       <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler ms-auto"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#contentNavbar"
-            aria-controls="contentNavbar"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#contentNavbar"
+          aria-controls="contentNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="contentNavbar"
-          >
-            <ul class="navbar-nav gap-5">
-              <li class="nav-item">
-                <a class="nav-link" href="#start">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#rooms">Cômodos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#tourism">Pontos Turísticos</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                >
-                  Contatos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Proprietário</a></li>
-                  <li><a class="dropdown-item" href="#">Donos do site</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="contentNavbar"
+        >
+          <ul class="navbar-nav gap-5">
+            <li class="nav-item">
+              <a class="nav-link" href="#start">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rooms">Cômodos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tourism">Pontos Turísticos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Contatos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Proprietário</a></li>
+                <li><a class="dropdown-item" href="#">Donos do site</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </nav>
 
@@ -116,6 +114,83 @@
           </div>
         </div>
       </section>
+
+      <section class="mt-6">
+        <div class="text-center">
+          <h1>Áreas da Pousada</h1>
+          <p>
+            Cada espaço da nossa pousada foi cuidadosamente preparado para
+            oferecer conforto, praticidade e um toque acolhedor
+          </p>
+        </div>
+
+        <div class="row mt-5 justify-content-center gap-3">
+          <div class="col-auto">
+            <div class="card shadow-sm" style="width: 17rem">
+              <img
+                class="card-img-top w-100"
+                src="./assets/living-room.jpg"
+                alt="Imagem da sala de estar"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sala de Estar</h5>
+                <p class="card-text">
+                  Nossa sala de estar é um convite ao descanso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="card shadow-sm" style="width: 17rem">
+              <img
+                class="card-img-top w-100 img-fluid"
+                src="./assets/kitchen.jpg"
+                alt="Imagem da cozinha"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cozinha</h5>
+                <p class="card-text">
+                  Nossa cozinha é aconchegante, perfeita para suas refeições.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="card shadow-sm" style="width: 17rem">
+              <img
+                class="card-img-top w-100"
+                src="./assets/room.jpg"
+                alt="Imagem do quarto"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Quarto</h5>
+                <p class="card-text">Um espaço pensado para o seu descanso.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="card shadow-sm" style="width: 17rem">
+              <img
+                class="card-img-top w-100"
+                src="./assets/bathroom.jpg"
+                alt="Imagem do banheiro"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Banheiro</h5>
+                <p class="card-text">
+                  Nosso banheiro oferece praticidade e conforto.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-5"></section>
     </div>
 
     <!-- Bootstrap 5 JS Bundle (inclui Popper) -->
