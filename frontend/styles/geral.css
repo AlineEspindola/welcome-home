@@ -2,11 +2,17 @@ h1 {
   font-family: 'Playfair Display', serif;
 }
 
-.no-animation:hover {
+/* .no-animation {
+  transition: none !important;
+} */
+
+.no-animation:hover,
+.no-animation:focus {
   background-color: inherit !important;
   color: inherit !important;
   border-color: inherit !important;
-  transition: none !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 .mb-6 { margin-bottom: 4rem; }
