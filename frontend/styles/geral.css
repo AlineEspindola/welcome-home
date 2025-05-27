@@ -57,3 +57,23 @@ h1 {
 .pr-9 { padding-right: 7rem; }
 .pr-10 { padding-right: 8rem; }
 
+@media (min-width: 1152px) {
+  .text-custom-start {
+    text-align: left !important;
+  }
+}
+
+.text-custom-card-align {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media (min-width: 1152px) {
+  .text-custom-card-align {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+  }
+}
+
