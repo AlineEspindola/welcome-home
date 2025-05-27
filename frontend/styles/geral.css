@@ -76,11 +76,3 @@ h1 {
     text-align: left !important;
   }
 }
-
-
-@media (max-width: 1151px) {
-  .col-md-5 {
-    flex: 0 0 auto;
-    width: 51.66666667%;
-  }
-}
