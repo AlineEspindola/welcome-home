@@ -2,6 +2,13 @@ h1 {
   font-family: 'Playfair Display', serif;
 }
 
+.no-animation:hover {
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: inherit !important;
+  transition: none !important;
+}
+
 .mb-6 { margin-bottom: 4rem; }
 .mb-7 { margin-bottom: 5rem; }
 .mb-8 { margin-bottom: 6rem; }
