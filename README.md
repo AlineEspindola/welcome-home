@@ -11,10 +11,9 @@
 
 <hr>
 
-### Tecnologias usadas 📲: 
+## Tecnologias usadas 📲: 
 * ![HTML5][HTML5]
 * ![CSS3][CSS3]
-* ![JS][JS]
 * ![Bootstrap][Bootstrap.com]
 
 <hr>
