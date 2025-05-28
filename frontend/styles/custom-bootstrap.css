@@ -49,7 +49,9 @@
   cursor: not-allowed;
 }
 
-.btn-outline-primary {
+.btn-outline-primary,
+.btn-outline-primary:focus,
+.btn-outline-primary:focus-visible {
   color: #8C5B30;
   border-color: #8C5B30;
   background-color: transparent;
@@ -57,13 +59,14 @@
 
 .btn-outline-primary:hover,
 .btn-outline-primary:focus,
+.btn-outline-primary:focus-visible,
 .btn-outline-primary:active,
 .btn-outline-primary.active,
 .show > .btn-outline-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #8C5B30;
-  border-color: #7a4e28;
-  box-shadow: 0 0 0 0.2rem rgba(140, 91, 48, 0.5);
+  color: #fff !important;
+  background-color: #8C5B30 !important;
+  border-color: #7a4e28 !important;
+  box-shadow: 0 0 0 0.2rem rgba(140, 91, 48, 0.5) !important;
 }
 
 .btn-outline-primary.dropdown-toggle {
