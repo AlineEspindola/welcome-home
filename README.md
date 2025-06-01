@@ -2,7 +2,7 @@
   <h1>WelcomeHome</h1>
   <p>Plataforma digital personalizada para pousadas e hospedagens familiares que desejam receber seus hóspedes com charme e praticidade.</p>
   <img src="https://i.ibb.co/gZtCxSPd/welcomehome.jpg" alt="seção 1 do site" />
-<img src="https://chatgpt.com/s/m_683c6292a2848191b05c56a205809404" alt="Cartão com QR code" />
+<img src="https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjgzYzYyOTJhMjg0ODE5MWIwNWM1NmEyMDU4MDk0MDQ6ZmlsZV8wMDAwMDAwMDZjNTA2MWY1YWIzZmQwNWQwZmMxZDllMCIsInRzIjoiNDg1Nzc0IiwicCI6InB5aSIsInNpZyI6IjZjOWY1MjY5ZTA5NmE0YWM3NTE0MjEwNDUyMDc4NzhjMzY3ZThmOTRiYjFjNzQ2OGY0ZDk0YWUzNTUzNGExN2MiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ=="  alt="Cartão com QR code" />
 </div>
 
 <hr>
