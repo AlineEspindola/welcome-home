@@ -1,7 +1,8 @@
 <div align="center">
   <h1>WelcomeHome</h1>
   <p>Plataforma digital personalizada para pousadas e hospedagens familiares que desejam receber seus hóspedes com charme e praticidade.</p>
-  <img src="https://i.ibb.co/gZtCxSPd/welcomehome.jpg" alt="logo" />
+  <img src="https://i.ibb.co/gZtCxSPd/welcomehome.jpg" alt="seção 1 do site" />
+<img src="https://chatgpt.com/s/m_683c6292a2848191b05c56a205809404" alt="Cartão com QR code" />
 </div>
 
 <hr>
